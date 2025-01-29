@@ -19,7 +19,7 @@ export default function HomePage() {
         </h1>
 
         <p className="text-2xl sm:text-3xl font-medium tracking-widest max-w-3xl mx-auto">
-          Full-Stack Developer & Software Engineer | Web, AI, Robotics, and More
+          Full-Stack Developer &amp; Software Engineer | Web, AI, Robotics, and More
         </p>
 
         <Button label="VIEW MY WORK" />
@@ -40,7 +40,7 @@ export default function HomePage() {
         </h2>
 
         <p className="text-2xl sm:text-3xl font-medium tracking-widest max-w-3xl mx-auto">
-          I'm a passionate Software Engineering student and Front-End Developer with a love for AI, robotics, space related subjects, and games!
+          I&apos;m a passionate Software Engineering student and Front-End Developer with a love for AI, robotics, space related subjects, and games!
         </p>
 
         <p className="text-xl sm:text-2xl font-light tracking-widest max-w-3xl mx-auto">
