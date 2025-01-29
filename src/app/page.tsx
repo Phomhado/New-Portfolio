@@ -15,7 +15,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-black text-white flex flex-col items-center justify-start px-4 pt-36">
       <section className="text-center w-full max-w-4xl mx-auto space-y-8">
         <h1 className="text-6xl sm:text-7xl font-extrabold uppercase tracking-wide border-b-4 border-white pb-4">
-          HELLO, I'M PEDRO OLIVEIRA
+          HELLO, I&apos;M PEDRO OLIVEIRA
         </h1>
 
         <p className="text-2xl sm:text-3xl font-medium tracking-widest max-w-3xl mx-auto">
