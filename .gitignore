@@ -6,7 +6,7 @@ README.md
 # dependencies
 /node_modules
 /.pnp
-.pnp.*
+.pnp.* 
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
@@ -18,7 +18,6 @@ README.md
 
 # next.js
 /.next/
-/out/
 
 # production
 /build
