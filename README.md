@@ -11,3 +11,5 @@ In my previous portfolio, I worked with basic static technologies like **HTML**,
 - 📫 **Contact Information**: Find ways to get in touch with me for projects, opportunities, or just to talk!
 
 Feel free to visit and send me constructive suggestions... thank you for your visit!
+
+P.S: This website is still being coded, so expect some little errors and bugs here and there! it is not on the final version yet, so be patient!
