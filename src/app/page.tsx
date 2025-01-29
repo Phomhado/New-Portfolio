@@ -13,22 +13,17 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center justify-start px-4 pt-36">
-      {/* Hero Section */}
       <section className="text-center w-full max-w-4xl mx-auto space-y-8">
-        {/* Main Title */}
         <h1 className="text-6xl sm:text-7xl font-extrabold uppercase tracking-wide border-b-4 border-white pb-4">
           HELLO, I'M PEDRO OLIVEIRA
         </h1>
 
-        {/* Subtitle */}
         <p className="text-2xl sm:text-3xl font-medium tracking-widest max-w-3xl mx-auto">
           Full-Stack Developer & Software Engineer | Web, AI, Robotics, and More
         </p>
 
-        {/* Call to Action Button */}
         <Button label="VIEW MY WORK" />
 
-        {/* Social Links */}
         <div className="mt-12 flex justify-center gap-8 text-white">
           <a href="https://twitter.com/" className="hover:text-pink-600 transition-colors">
             <i className="fab fa-twitter text-3xl"></i>
@@ -39,14 +34,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Mini About Me Section */}
       <div className="text-center w-full max-w-4xl mx-auto space-y-8 py-24">
-        {/* Title */}
         <h2 className="text-4xl sm:text-5xl font-extrabold uppercase tracking-wide border-b-4 border-white pb-4">
           KNOW MORE ABOUT ME
         </h2>
 
-        {/* Description */}
         <p className="text-2xl sm:text-3xl font-medium tracking-widest max-w-3xl mx-auto">
           I'm a passionate Software Engineering student and Front-End Developer with a love for AI, robotics, space related subjects, and games!
         </p>
@@ -55,11 +47,9 @@ export default function HomePage() {
           Constantly learning and exploring new technologies, pushing boundaries, and creating impactful digital experiences that inspire.
         </p>
 
-        {/* Call to Action Button */}
         <Button label="LEARN MORE" />
       </div>
 
-      {/* Skills Section */}
       <section className="text-center w-full max-w-4xl mx-auto space-y-8 py-24">
         <h2 className="text-4xl sm:text-5xl font-extrabold uppercase tracking-wide border-b-4 border-white pb-4">
           SKILLS
@@ -68,7 +58,6 @@ export default function HomePage() {
           Tools I work with and my experience
         </p>
 
-        {/* Skills Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           {skills.map((skill, index) => (
             <SkillCard
