@@ -1,4 +1,5 @@
 import Button from "./components/Button";
+import Footer from "./components/Footer";
 import SkillCard from "./components/SkillCards";
 
 export default function HomePage() {
@@ -70,6 +71,7 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+      <Footer />
     </main>
   );
 }
