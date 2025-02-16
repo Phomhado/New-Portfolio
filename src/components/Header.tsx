@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         const handleResize = () => {
             setIsMobile(window.innerWidth <= 768);
             if (window.innerWidth > 768) {
-                setIsOpen(false); // Close menu on larger screens
+                setIsOpen(false); 
             }
         };
 
